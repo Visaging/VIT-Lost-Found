@@ -1,14 +1,14 @@
 # VIT Lost & Found System
 
 ## 1. Project Overview
-We’ve all been there—losing an ID card or keys on campus and hoping someone finds it. VIT Lost & Found is a python app built to replace those chaotic and unorganised whatsApp groups with something that actually works for VIT Bhopal students. Instead of physical lists that never get updated, we use google firebase to keep everything updated.
+We've all been there: losing our keys or ID card on campus and hoping someone finds them.  VIT Lost & Found is a Python app that was made to get rid of the messy and disorganised WhatsApp groups that VIT Bhopal students use.  We use Google Firebase to keep everything up to date instead of physical lists that never change.
 
 ## 2. Features
-* **Secure Access:** You log in using your official VIT Registration Number, so we know every user is a verified student.
-* **Always Up-to-Date:** We use cloud storage (Firebase), meaning the lost & found list is updated in real-time. You can access the same live data from any computer on campus.
-* **Reporting Made Safe:** You can log the details (like location and category) but keep one specific detail hidden as a 'secret' to prevent theft.
-* **Smart Claims:** You have to describe that hidden 'secret' detail. Our smart system compares your description with the finder's note, if it matches, the system instantly verifies you as the owner.
-* **Connect & Collect:** Once the system verifies the claim, it automatically shares the finder's email with you so you can coordinate a meetup."
+* **Secure Access:** We are able to verify that each user is a verified student because you log in using your official VIT Registration Number.
+* **Always Up-to-Date:** Because we use cloud storage (Firebase), the lost and found list is updated instantly.  Any computer on campus has access to the same real-time data.
+* **Reporting Made Safe:**  You need to explain that "secret" detail.  If your description and the finder's note match, our intelligent system instantly confirms that you are the owner.
+* **Smart Claims:** You must explain that "secret" detail. If the finder's note and your description match, our intelligent system instantly confirms that you are the owner.
+* **Connect & Collect:** The system will automatically send you the finder's email so you can arrange a meeting once the claim has been validated.
 
 ## 3. Technologies Used
 * **Language:** Python
