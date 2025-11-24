@@ -3,21 +3,21 @@
 ## Problem Statement & Project Scope
 
 ### 1. Problem Statement
-In a bustling university campus like VIT Bhopal, students and staff frequently misplace personal belongings such as ID cards, electronics, and keys. Currently, the process of recovering these items relies on disorganized methods like WhatsApp groups, physical notice boards, or word-of-mouth. This leads to:
-* **Inefficiency:** Lost items often go unnoticed by the owner.
-* **Lack of Verification:** There is no standard way to verify if a claimant is the actual owner.
-* **Data Redundancy:** Multiple people posting the same item in different groups.
+On a campus as lively as ours, keeping track of personal belongings can be a challenge. Currently, when we lose something valuable like an ID card or phone, we rely on disorganised methods like word-of-mouth or scattered whatsApp chats. This leads to:
+* **Missed Connections:** Items are found, but the owners never find the post.
+* **Trust Issues:** Without a proper verification system, handing over a found item feels risky.
+* **Information Overload:** We see the same 'Lost ID' photo forwarded again and again, making it harder to spot the important updates.
 
 ### 2. Project Scope
-**VIT Lost & Found** is a centralized Command Line Interface (CLI) based application designed to bridge the gap between the "Finder" and the "Loser" of an item. The system utilizes cloud-based storage (Firebase) to ensure data is accessible across different instances and provides a secure verification mechanism to prevent theft.
+**VIT Lost & Found** is a centralized python based application designed to bridge the gap between the "Finder" and the "Loser" of an item. The system utilises cloud-based storage to ensure data is accessible across different instances and provides a secure verification to prevent theft.
 
 ### 3. Target Users
 * **Students:** To report lost items or claim found ones.
 * **Faculty & Staff:** To report items found in classrooms or labs.
-* **Campus Security/Proctors:** To manage the handover of valuable items (future scope).
+* **Campus Security/Proctors:** To manage the handover of valuable items.
 
 ### 4. High-Level Features
-* **Centralized Cloud Database:** Uses Google Firebase Firestore to store user and item data in real-time, ensuring persistence unlike local file systems.
-* **Secure Authentication:** User registration and login system to track who is reporting or claiming items.
-* **Smart Verification (Innovation):** Implements a "Distinction Match" feature using fuzzy logic (SequenceMatcher). The finder sets a hidden "secret feature" (e.g., "cracked screen"), and the claimant must describe it. The system automatically verifies ownership based on text similarity.
-* **Real-time Dashboard:** Displays only "Open" (unclaimed) items to keep the list relevant.
+* **Cloud Powered:** Data is stored online, not stuck on one device.
+* **Secure:** Only registered users can report or claim items.
+* **Smart Verification:** Our "Distinction Match" feature uses AI-like logic to verify ownership automatically based on hidden item details.
+* **Live Dashboard:** Keeps the list updated by showing only unclaimed items.
