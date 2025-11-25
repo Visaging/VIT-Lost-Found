@@ -24,7 +24,7 @@ We've all been there: losing our keys or ID card on campus and hoping someone fi
 VIT-Lost-Found/
 ├── Screenshots/
     ├── claim fail.png
-    ├── aclaim sunccessful.png
+    ├── claim sunccessful.png
     ├── dashboard.png
     ├── login.png
     ├── reporting item 1.png
