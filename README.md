@@ -73,7 +73,7 @@ To verify the functionality of the system, follow these steps:
 * _The system saves your profile, now you can login._
 
 **Test 2: Reporting an item**
-* Login
+* Login.
 * Select option `1` from dashboard.
 * Enter the details:
   * Item Name: `Water bottle`
