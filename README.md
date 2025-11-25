@@ -49,7 +49,7 @@ Follow these instructions to run the project.
 **Step 1: Clone the repository**
 Open terminal and run:
 ```bash
-git clone [https://github.com/Visaging/VIT-Lost-Found.git](https://github.com/Visaging/VIT-Lost-Found.git)
+git clone https://github.com/Visaging/VIT-Lost-Found.git
 ```
 ```bash
 cd VIT-Lost-Found\Source_Code
