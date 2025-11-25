@@ -18,7 +18,6 @@ def reportitem():
 
     newid=len(items)+1
     newitem=new_item(newid, name, desc, categ, location, user['regno'],distinct, fname)
-    
     items.append(newitem)
     saveitem(items)
     os.system('cls')
@@ -78,4 +77,5 @@ def claimitem():
                 print(f"Verification Failed. Your description did not match with the finder's.")
             return
     print("Item ID not found.")
+
 
