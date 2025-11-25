@@ -45,18 +45,14 @@ Open terminal and run:
 git clone [https://github.com/YourUsername/VIT-Lost-Found.git](https://github.com/YourUsername/VIT-Lost-Found.git)
 ```
 ```bash
-cd VIT-Lost-Found
+cd VIT-Lost-Found\Source_Code
 ```
 **Step 2: Install Dependencies**
 Install the firebase library:
 ```bash
 pip install firebase-admin
 ```
-**Step 3: Configure Firebase**
-* This project uses a `serviceKey.json` file to access the database.
-* This has been excluded from the project repository to avoid leaking database information.
-
-**Step 4: Run the application**
+**Step 3: Run the application**
 ```bash
 python main.py
 ```
