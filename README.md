@@ -23,12 +23,19 @@ We've all been there: losing our keys or ID card on campus and hoping someone fi
 ```text
 VIT-Lost-Found/
 ├── Screenshots/
-├── authentication.py
-├── data.py                
-├── file_management.py     
-├── item_management.py     
-├── main.py               
-├── serviceAccountKey.json 
+    ├── claim fail.png
+    ├── aclaim sunccessful.png
+    ├── dashboard.png
+    ├── login.png
+    ├── reporting item 1.png
+    ├── reporting item success.png
+├── Source_Code/
+    ├── authentication.py
+    ├── data.py
+    ├── file_management.py
+    ├── item_management.py
+    ├── main.py
+    ├── serviceAccountKey.json
 ├── README.md              
 └── statement.md         
 ```
@@ -42,7 +49,7 @@ Follow these instructions to run the project.
 **Step 1: Clone the repository**
 Open terminal and run:
 ```bash
-git clone [https://github.com/YourUsername/VIT-Lost-Found.git](https://github.com/YourUsername/VIT-Lost-Found.git)
+git clone [https://github.com/Visaging/VIT-Lost-Found.git](https://github.com/Visaging/VIT-Lost-Found.git)
 ```
 ```bash
 cd VIT-Lost-Found\Source_Code
