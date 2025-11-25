@@ -3,7 +3,6 @@ from data import new_user
 import os
 
 cuser = None
-
 def register():
     users=loadusers()
     print("----REGISTER----")
@@ -44,4 +43,5 @@ def logout():
     global cuser
     cuser=None
     print("Logged out.")
+
 
